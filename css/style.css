@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    display: grid;
+    width: 100%;
+    min-height: 95vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 48px auto;
+}
+
+.nv{
+    display: grid;
+    height: 48px;
+    background-color: #7f7f7f89;
+}
+
+.hd{
+    display: grid;
+    height: 90vh;
+    background-color: #404040;
+}
+
+.sc1{
+    display: grid;
+    height: 90vh;
+    background-color: #404040;
+}
+
+.as{
+    display: grid;
+    height: 90vh;
+    background-color: #404040;
+}
+
+.sc2{
+    display: grid;
+    height: 90vh;
+    background-color: #404040;
+}

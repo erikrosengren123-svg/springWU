@@ -7,36 +7,42 @@ body{
     display: grid;
     width: 100%;
     min-height: 95vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 48px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 48px 95vh 100vh 100vh;
+    grid-template-areas: 
+    'nv nv nv'
+    'hd hd hd'
+    'sc1 sc1 as'
+    'sc2 sc2 sc2'
+    ;
 }
 
 .nv{
     display: grid;
-    height: 48px;
+    grid-area: nv;
     background-color: #7f7f7f89;
 }
 
 .hd{
     display: grid;
-    height: 90vh;
-    background-color: #404040;
+    grid-area: hd;
+    background-color: #030191;
 }
 
 .sc1{
     display: grid;
-    height: 90vh;
-    background-color: #404040;
+    grid-area: sc1;
+    background-color: #990202;
 }
 
 .as{
     display: grid;
-    height: 90vh;
-    background-color: #404040;
+    grid-area: as;
+    background-color: #61017e;
 }
 
 .sc2{
     display: grid;
-    height: 90vh;
-    background-color: #404040;
+    grid-area: sc2;
+    background-color: #018103;
 }

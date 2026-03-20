@@ -35,10 +35,21 @@ body{
     background-color: #990202;
 }
 
+aside p{
+    margin: 0;
+}
+
 .as{
-    display: grid;
+    display: flex;
     grid-area: as;
     background-color: #61017e;
+    font-family: "Instrument Serif", serif;
+    font-size: 27vh;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .sc2{

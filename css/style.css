@@ -27,12 +27,19 @@ body{
     display: grid;
     grid-area: hd;
     background-color: #030191;
+    font-family: "Instrument Serif", serif;
+    font-size: 85vh;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .sc1{
     display: grid;
     grid-area: sc1;
     background-color: #990202;
+    src: img;
 }
 
 aside p{
@@ -49,7 +56,6 @@ aside p{
     align-content: center;
     justify-content: center;
     align-items: center;
-    
 }
 
 .sc2{
